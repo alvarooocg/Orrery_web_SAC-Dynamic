@@ -1,13 +1,39 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System Exploration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <span>Dynamic.</span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="search your info">
+            <img src="/img/nasaLogo.svg.png" alt="NASA Logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>The <span class="highlight">solar system</span> at your hands.</h1>
+            </div>
+            <div class="hero-image">
+                <img src="/img/solarSystem.png" alt="Solar System">
+            </div>
+        </section>
+
+        <section class="explore-section">
+            <div class="explore-text">
+                <h2><span class="explore-highlight">Start Exploring</span></h2>
+                <p>"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."</p>
+                <button>Enter simulation</button>
+            </div>
+        </section>
+    </main>
+</body>
 </html>
