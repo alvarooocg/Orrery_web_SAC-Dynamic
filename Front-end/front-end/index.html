@@ -9,5 +9,46 @@
 <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <header></header>
+        <div class="logo">
+            <span>Dynamic.</span>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="search your info">
+            <img src="nasa-logo.png" alt="NASA Logo">
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-text">
+                <h1>The <span class="highlight">solar system</span> at your hands.</h1>
+            </div>
+            <div class="hero-image">
+                <img src="solar-system.jpg" alt="Solar System">
+            </div>
+        </section>
+
+        <section class="explore-section">
+            <div class="explore-text">
+                <h2><span class="explore-highlight">Start Exploring</span></h2>
+                <p>"Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500."</p>
+                <button>Enter simulation</button>
+            </div>
+        </section>
+
+        <!-- New section for embedded web app -->
+        <section class="web-app-section">
+            <div class="web-app-container">
+                <h2>Asteroids Tracking App</h2>
+                <iframe src="https://eyes.nasa.gov/apps/asteroids/#/watch"
+                        width="100%" 
+                        height="600px" 
+                        frameborder="0" 
+                        allowfullscreen>
+                </iframe>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
