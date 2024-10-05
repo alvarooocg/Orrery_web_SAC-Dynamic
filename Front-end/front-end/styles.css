@@ -20,10 +20,8 @@ header {
     background-color: #000;
 }
 
-.logo span {
-    color: #d6ff34; /* Color actualizado */
-    font-size: 24px;
-    font-weight: bold;
+.logo{
+    width: 20px;;
 }
 
 .search-bar {
