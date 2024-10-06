@@ -3,8 +3,17 @@ const Container = () =>
         <div class="web-app-container">
             <h2>Asteroids Tracking App</h2>
             <iframe src="https://eyes.nasa.gov/apps/asteroids/#/watch"
-                    width="100%" 
+                    width="80%" 
                     height="600px" 
+                    frameborder="0" 
+                    allowfullscreen>
+            </iframe>
+        </div>
+        <div class="web-app-container">
+            <h2>Orrery Web App</h2>
+            <iframe src="https://eyes.nasa.gov/apps/orrery/#/home"
+                    width="80%" 
+                    height="600px"
                     frameborder="0" 
                     allowfullscreen>
             </iframe>
