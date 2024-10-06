@@ -9,7 +9,7 @@ const Container = () =>
                     allowfullscreen>
             </iframe>
         </div>
-        <div class="web-app-container">
+        <div class="web-app-container2">
             <h2>Orrery Web App</h2>
             <iframe src="https://eyes.nasa.gov/apps/orrery/#/home"
                     width="80%" 
