@@ -53,19 +53,6 @@ section {
   display: none;
 }
 
-.menu-btn {
-  background-color: black;
-  color: white;
-  border: 1px white solid;
-}
-
-.menu-btn:hover {
-  background-color: #d6ff34;
-  border-color: black;
-  color: black;
-  transition: all 1s ease;
-}
-
 .logo-nasa {
   width: 100px;
 }
